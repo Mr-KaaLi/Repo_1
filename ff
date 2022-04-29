@@ -1,0 +1,4 @@
+ubtmachine@ubtmachine:~/Desktop$ sudo docker docker run -it alpine /bin/sh
+
+sudo docker ps and check container id
+sudo inspec exec linux-baseline -t docker://e6b34d65e5f5
